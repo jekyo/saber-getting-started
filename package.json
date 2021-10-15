@@ -1,14 +1,16 @@
 {
-  "private": true,
+  "name": "saber-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "saber --port 4139",
-    "build": "saber build",
-    "start": "npm run dev"
+    "dev": "saber",
+    "build": "saber build"
   },
-  "devDependencies": {
-    "saber": "latest",
-    "saber-theme-minima": "latest",
-    "saber-plugin-feed": "latest",
-    "saber-plugin-query-posts": "latest"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "saber": "^0.11.7"
   }
 }
