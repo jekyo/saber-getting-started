@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "saber --port 4139 --host 0.0.0.0",
+    "build": "saber build",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "saber": "latest",
+    "saber-theme-minima": "latest",
+    "saber-plugin-feed": "latest",
+    "saber-plugin-query-posts": "latest"
+  }
+}
