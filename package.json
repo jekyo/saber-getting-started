@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "saber --port 4139 --host 0.0.0.0",
+    "dev": "saber --port 4139",
     "build": "saber build",
     "start": "npm run dev"
   },
