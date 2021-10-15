@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "saber --port 4139 --host 0.0.0.0",
     "build": "saber build",
-    "start": "npm run dev"
+    "start": "npm run build && npm run dev"
   },
   "devDependencies": {
     "saber": "latest",
