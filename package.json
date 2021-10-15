@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "saber",
-    "build": "saber build"
+    "dev": "saber --port 4139",
+    "build": "saber build",
+    "start": "npm run dev"
   },
   "keywords": [],
   "author": "",
