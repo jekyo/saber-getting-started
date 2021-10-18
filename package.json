@@ -1,7 +1,7 @@
 {
   "name": "saber-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Scripts",
   "main": "index.js",
   "scripts": {
     "dev": "saber --port 4139 --host 0.0.0.0",
@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "saber": "^0.11.7"
+    "saber": "^0.11.7",
+    "saber-theme-minima": "^3.2.2"
   }
 }
