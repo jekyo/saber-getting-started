@@ -4,7 +4,7 @@
   "description": "## Scripts",
   "main": "index.js",
   "scripts": {
-    "dev": "saber --port 4139 --host 0.0.0.0",
+    "dev": "saber --port $PORT --host $HOST",
     "build": "saber build",
     "start": "npm run build && npm run dev"
   },
